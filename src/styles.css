@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: right;
+  background-color: black;
+  font-size: 60px;
+  color: white;
+  height: 200px;
+  width: 400px;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+  width: 400px;
+}
+
+.btn-container > button {
+  width: 98px;
+  margin: 1px;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.big-btn {
+  flex-grow: 2;
+  color: white;
+  background-color: rgb(63, 63, 63);
+}
+
+.colomn-operator {
+  background-color: rgb(236, 138, 9);
+}
+
+.row-operator {
+  background-color: darkgray;
+  color: black;
+}
+
+.number {
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
